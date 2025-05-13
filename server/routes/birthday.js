@@ -67,7 +67,7 @@ router.post('/add', async (req, res) => {
             Get ready for a magical birthday experience filled with heartfelt wishes and surprises! 🎈
           </p>
           <div style="text-align: center; margin-top: 20px;">
-            <a href="${process.env.REACT_APP_API_URL || 'http://localhost:3000'}" style="background-color: #2563EB; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+            <a href="${process.env.REACT_APP_API_URL || 'https://wishspark-lake.vercel.app/'}" style="background-color: #2563EB; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
               Visit Our Website
             </a>
           </div>
